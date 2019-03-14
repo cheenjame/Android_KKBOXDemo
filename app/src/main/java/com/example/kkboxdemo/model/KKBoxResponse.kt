@@ -1,4 +1,4 @@
-package com.example.kkboxdemo
+package com.example.kkboxdemo.model
 
 data class TokenResponse(
     val access_token: String,

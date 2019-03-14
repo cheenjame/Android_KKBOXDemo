@@ -1,4 +1,4 @@
-package com.example.kkboxdemo
+package com.example.kkboxdemo.model
 
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
@@ -7,7 +7,7 @@ import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
 import retrofit2.converter.gson.GsonConverterFactory
 
 class ApiClient private constructor(){
-    lateinit var service:KKBoxService
+    lateinit var service: KKBoxService
 
     private object Holder{
         val INSTANCE = ApiClient()

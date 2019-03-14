@@ -1,16 +1,14 @@
-package com.example.kkboxdemo
+package com.example.kkboxdemo.model
 
 import android.content.Context
+import com.example.kkboxdemo.viewmodel.LoadingDialog
 import com.google.gson.Gson
-import io.reactivex.Observable
 import io.reactivex.Observer
-import io.reactivex.SingleObserver
 import io.reactivex.disposables.Disposable
 import retrofit2.HttpException
 import java.net.ConnectException
 import java.net.SocketTimeoutException
 import java.net.UnknownHostException
-import java.util.*
 
 abstract class ApiResponse<T>(private val context: Context) : Observer<T> {
     abstract fun success(data: T)

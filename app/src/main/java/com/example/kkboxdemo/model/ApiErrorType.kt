@@ -1,7 +1,8 @@
-package com.example.kkboxdemo
+package com.example.kkboxdemo.model
 
 import android.content.Context
 import android.support.annotation.StringRes
+import com.example.kkboxdemo.R
 
 enum class ApiErrorType(val code: Int, @param:StringRes private val messageId: Int) {
     INTERNAL_SERVER_ERROR(500, R.string.service_error),
