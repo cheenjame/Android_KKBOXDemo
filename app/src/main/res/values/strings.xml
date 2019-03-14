@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">KKBOXDemo</string>
+
+    <string name="service_error">服務器錯誤</string>
+    <string name="not_found">請求不存在</string>
+    <string name="timeout">超時</string>
+    <string name="unexpected_error">IO錯誤</string>
+    <string name="network_wrong">網路不穩</string>
 </resources>
